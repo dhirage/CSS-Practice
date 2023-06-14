@@ -1,0 +1,52 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.container{
+    border: 2px solid rgb(4, 4, 118);
+    margin: 33px auto;
+    padding: 10px 15px;
+    background: rgb(228, 228, 255);
+    width: 900px;
+
+}
+.item{
+    border: 2px solid rgb(118, 118, 4);
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background: rgb(255, 255, 228);
+}
+
+#books{
+    float: left;  
+    width: 48%;
+
+}
+#bats{
+    float: right;
+    width: 48%;
+}
+#balls{
+    /* float: left; */
+    clear: both;  
+    width: 100%;
+}
+
+p, h3{
+    /* text-align: right;
+    text-align: left; */
+    text-align: center;
+    text-align: justify;
+}
+h1{
+    /* margin: 20px auto; */
+    /* width: 400px; */
+    margin-left: 200px;
+    /* margin-right: auto; */
+}
